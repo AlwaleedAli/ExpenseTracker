@@ -1,5 +1,6 @@
 package com.example.expensetracker;
 
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
@@ -16,5 +17,10 @@ public class MainActivity extends AppCompatActivity {
      //comment to test the pul;l
     int qwerty=1;
 
+    @Nullable
+    @Override
+    public String getCallingPackage() {
+        return super.getCallingPackage();
+    }
 }
 
