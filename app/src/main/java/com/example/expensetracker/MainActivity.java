@@ -13,11 +13,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    Button x = {Button}
+    Button x = {Button} findv
 
-    @Override
-    public <T extends View> T findViewById(int id) {
-        return super.findViewById(id);
-    }
 }
 
