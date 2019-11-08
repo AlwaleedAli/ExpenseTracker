@@ -1,6 +1,6 @@
 package com.example.expensetracker;
 
-import androidx.annotation.Nullable;
+import  androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
@@ -23,4 +23,5 @@ public class MainActivity extends AppCompatActivity {
         return super.getCallingPackage();
     }
 }
+
 
