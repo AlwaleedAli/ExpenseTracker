@@ -3,7 +3,7 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:gravity="left"
+
     android:padding="20dp">
 
     <LinearLayout
@@ -13,7 +13,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Settings Screen"/>
+            android:text="@string/settings_screen"/>
 
     </LinearLayout>
 
@@ -21,12 +21,12 @@
         android:layout_width="wrap_content">
 
 
-    <Button
-        android:id="@+id/btnInfo"
-        android:layout_width="200dp"
-        android:layout_height="match_parent"
-        android:text="info"
-        android:onClick="OnClickInfo"/>
+        <Button
+            android:id="@+id/btnInfo"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:text="@string/info"
+            android:onClick="OnClickInfo"/>
     </LinearLayout>
 
 </LinearLayout>
