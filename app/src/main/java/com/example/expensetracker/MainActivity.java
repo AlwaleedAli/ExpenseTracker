@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
     public void exitOnClick(View view) {
         finish();
         System.exit(0);
+        //update comment(for test only)
     }
 }
 
