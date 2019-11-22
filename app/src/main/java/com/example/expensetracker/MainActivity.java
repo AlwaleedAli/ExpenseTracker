@@ -7,13 +7,21 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
+
+import java.util.Calendar;
+import java.util.Date;
 
 public class MainActivity extends AppCompatActivity {
-
+    DatabaseHelper myDb;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        myDb = new DatabaseHelper(this);
+
+        String dateOpened = Calendar.getInstance().getTime().toString();
+        myDb.insertData(dateOpened);
 
     }
 
