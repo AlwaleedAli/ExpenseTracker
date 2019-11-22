@@ -27,6 +27,14 @@
             android:layout_height="match_parent"
             android:text="@string/info"
             android:onClick="OnClickInfo"/>
+
+        <Button
+            android:id="@+id/btnLang"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="OnClickLang"
+            android:text="language/اللغة" />
     </LinearLayout>
 
 </LinearLayout>
